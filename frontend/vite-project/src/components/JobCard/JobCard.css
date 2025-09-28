@@ -1,0 +1,117 @@
+.job-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-location,
+.job-experience,
+.job-salary,
+.job-requirements,
+.job-description,
+.job-type,
+.job-position {
+  margin: 5px 0;
+}
+
+.job-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.jobcard-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.job-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-location,
+.job-experience,
+.job-salary,
+.job-requirements,
+.job-description,
+.job-type,
+.job-position,
+.job-company {
+  margin: 5px 0;
+}
+
+.jobcard-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.apply-button,
+.delete-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.apply-buttton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.apply-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.apply-buttton {
+  background-color: blue;
+  color: white;
+}
+
+.apply-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Ensure this CSS is added to your JobCard.css */
+
+.status-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e74c3c; /* Light red background color */
+  border: 2px solid #c0392b; /* Darker red border */
+  border-radius: 4px;
+  cursor: not-allowed; /* Indicate that the button is disabled */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+

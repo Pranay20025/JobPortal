@@ -1,0 +1,36 @@
+.cateory{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;  
+  gap: 30px;
+}
+.cateory h3{
+color: rgb(179, 18, 18);
+}
+.cat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.category {
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 200px;
+border: 2px solid rgb(129, 23, 23);
+border-radius: 20px;
+}
+.category:hover {
+  color: white;
+  background-color: brown;
+  border: 2px solid white;
+  border-radius: 20px;
+  }
+
+

@@ -1,0 +1,31 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.card p {
+  color: #777;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
